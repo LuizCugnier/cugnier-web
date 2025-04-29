@@ -1,17 +1,28 @@
-import HeroSection from "../components/HeroSection";
-import Navbar from "../components/Navbar";
+import AboutSection from "../components/HomeComponents/AboutSection";
+import Footer from "../components/HomeComponents/Footer";
+import HeroSection from "../components/HomeComponents/HeroSection";
+import NavbarGlass from "../components/HomeComponents/NavbarGlass";
+import ServicesSection from "../components/HomeComponents/ServicesSection";
+import WhySection from "../components/HomeComponents/WhySection";
 
 export default function Home() {
-    return (
-        <div className="min-h-screen flex flex-col">
-            <Navbar />
-            <main className="flex-grow">
-                {/* Hero Section */}
-                <HeroSection />
-                {/* Services Section */}
-                {/* About Section */}
-                {/* Contact Section */}
-            </main>
-        </div>
-    )
+  return (
+    <div className="min-h-screen flex flex-col">
+      {/* <Navbar /> */}
+      <NavbarGlass />
+      <main className="flex-grow">
+        {/* Hero Section */}
+        <HeroSection />
+        {/* Why Section */}
+        <WhySection />
+        {/* Services Section */}
+        <ServicesSection />
+        {/* About Section */}
+        <AboutSection />
+        {/* Contact Section */}
+
+        <Footer />
+      </main>
+    </div>
+  );
 }

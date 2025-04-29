@@ -1,3 +1,4 @@
+import { Menu } from "lucide-react";
 import { useState } from "react";
 import { Link } from "react-router-dom";
 
@@ -9,7 +10,8 @@ export default function Navbar() {
                 <div className="flex justify-between h-16">
                     <div className="flex items-center">
                         <Link to="/" className="flex-shrink-0 flex items-center">
-                            <span className="text-green-700 font-bold text-xl">Cugnier TIC</span>
+                            {/* <span className="text-green-700 font-bold text-xl">Cugnier TIC</span> */}
+                            <img src={"src/assets/logos/cuglogo.png"} alt="Cugnier TIC" className="h-10 w-12" />
                         </Link>
                     </div>
 
@@ -33,7 +35,7 @@ export default function Navbar() {
                             onClick={() => setIsMenuOpen(!isMenuOpen)}
                             className="inline-flex items-center justify-center p-2 rounded-md text-gray-700 hover:text-green-600 focus:outline-none"
                         >
-                            algo
+                            <Menu />
                         </button>
                     </div>
                 </div>
