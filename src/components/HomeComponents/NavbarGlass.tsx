@@ -3,7 +3,7 @@ import { Button } from "../ui/button";
 import { Menu, X } from "lucide-react";
 import { useState } from "react";
 
-export const navigationItems = [
+const navigationItems = [
   { name: "Home", href: "/" },
   { name: "About", href: "/about" },
   { name: "Services", href: "/services" },
@@ -19,7 +19,7 @@ export default function NavbarGlass() {
         {/* Logo Section */}
         <Link to="/" className="transition-all hover:opacity-80">
           <img
-            src="src/assets/logos/cuglogo.png"
+            src="src\assets\logos\logo-cug-new.png"
             alt="Cugnier TIC"
             className="h-10 w-12 transition-transform duration-300 hover:scale-105"
           />
@@ -32,7 +32,7 @@ export default function NavbarGlass() {
               <Link
                 key={item.href}
                 to={item.href}
-                className="text-sm font-medium text-gray-900 transition-colors hover:text-green-600"
+                className="text-sm font-medium text-dark-neutral transition-colors hover:text-primary"
               >
                 {item.name}
               </Link>

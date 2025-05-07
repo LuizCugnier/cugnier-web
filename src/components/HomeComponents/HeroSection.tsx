@@ -8,19 +8,19 @@ export default function HeroSection() {
         <div className="lg:grid lg:grid-cols-12 lg:gap-8">
           <div className="sm:text-center md:max-w-2xl md:mx-auto lg:col-span-6 lg:text-left">
             <h1>
-              <span className="block text-sm font-semibold uppercase tracking-wide text-green-600">
+              <span className="block text-sm font-semibold uppercase tracking-wide text-primary">
                 Confiança e Qualidade
               </span>
               <span className="mt-1 block text-4xl tracking-tight font-extrabold sm:text-5xl xl:text-6xl">
-                <span className="block text-gray-900">
+                <span className="block text-dark-neutral">
                   Estabelecendo o Padrão
                 </span>
-                <span className="block text-green-600">
+                <span className="block text-primary">
                   Teste, Inspeção e Certificação
                 </span>
               </span>
             </h1>
-            <p className="mt-3 text-base text-gray-500 sm:mt-5 sm:text-lg lg:text-xl">
+            <p className="mt-3 text-base text-small-text sm:mt-5 sm:text-lg lg:text-xl">
               Oferecemos serviços completos de teste, inspeção e certificação
               para garantir que seus produtos e processos atendam aos mais altos
               padrões de qualidade e segurança.
@@ -29,31 +29,31 @@ export default function HeroSection() {
               <ul className="mt-3 space-y-2">
                 <li className="flex items-start lg:col-span-1">
                   <div className="flex-shrink-0">
-                    <CheckCircledIcon className="text-green-600" />
+                    <CheckCircledIcon className="text-primary-light" />
                   </div>
-                  <p className="ml-3 text-sm text-gray-700">
+                  <p className="ml-3 text-sm text-small-text">
                     Fully accredited testing facilities
                   </p>
                 </li>
                 <li className="flex items-start lg:col-span-1">
                   <div className="flex-shrink-0">
-                    <CheckCircledIcon className="text-green-600" />
+                    <CheckCircledIcon className="text-primary-light" />
                   </div>
-                  <p className="ml-3 text-sm text-gray-700">
+                  <p className="ml-3 text-sm text-small-text">
                     Global certification expertise
                   </p>
                 </li>
                 <li className="flex items-start lg:col-span-1">
                   <div className="flex-shrink-0">
-                    <CheckCircledIcon className="text-green-600" />
+                    <CheckCircledIcon className="text-primary-light" />
                   </div>
-                  <p className="ml-3 text-sm text-gray-700">
+                  <p className="ml-3 text-sm text-small-text">
                     Industry-leading inspection protocols
                   </p>
                 </li>
               </ul>
               <div className="mt-8">
-                <Button className="bg-green-600 hover:bg-green-700 text-white px-4 py-2">
+                <Button className="bg-primary hover:bg-primary-dark text-white px-4 py-2">
                   Solicitar um Serviço
                 </Button>
               </div>
