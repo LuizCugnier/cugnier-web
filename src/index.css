@@ -1,2 +1,21 @@
 @import 'tailwindcss';
 @import "tw-animate-css";
+
+@theme {
+    --color-primary: #18753C;
+    --color-primary-light: #5FAF7A;
+    --color-primary-dark: #0F4D26;
+    --color-complementary: #75184C;
+    --color-analogous1: #18754C;
+    --color-analogous2: #187525;
+    --color-light-neutral: #F5F5F5;
+    --color-dark-neutral: #2B2B2B;
+    --color-small-text: #4A4A4A;
+    --color-light-accent1: #4CAF50;
+    --color-light-accent2: #1E8C5A;
+}
+
+button, a, [role="button"], .cursor-pointer {
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+  }
